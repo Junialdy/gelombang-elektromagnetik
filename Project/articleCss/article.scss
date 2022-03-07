@@ -1,0 +1,214 @@
+body {
+    margin: 1.5em;
+    font-family: 'Poppins', sans-serif;
+
+    .nav-container {
+        margin-top: 1em;
+        margin-bottom: .5em;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                font-weight: 500;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                .about-me {
+                    color: #6100A2;
+                    border: .18em #6100A2 solid ;
+                    padding: .3em 1em;
+                    border-radius: .3em;
+                    transition: ease-in-out .3s;
+                
+                    &:hover {
+                        background-color: #6100A2;
+                        color: white;
+                        box-shadow: #6100A2 0 0 5em;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+                font-size: .7rem;
+            
+                .nav-logo {
+                    width: 9em;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.article {
+    margin:3em 0;
+    color: #6100A2;
+
+    &__hero-title {
+        font-size: 1.8rem;
+        background-color: #53F9B1;
+        text-align: center;
+        margin-bottom: -2em;
+    }
+
+    &__title {
+        font-size: 1.7rem;
+        margin-top: 4em;
+    }
+
+    &__desc {
+        
+        line-height: 1.6em;
+        font-weight: 500;
+    }
+
+    &__ciri {
+
+        list-style-type:none;
+        margin-top: 4em;
+        line-height: 1.7em;
+        font-weight: 600;
+        font-size: .8em;
+        margin-left: -1em;
+        margin-bottom: 4em;
+        
+    }
+
+    &__list-manfaat {
+         
+        ul {
+            list-style-type: disc;
+        }
+
+        p {
+            font-weight: 600;
+        }
+    }
+}
+
+.slider-page {
+    margin-top:10em;
+    margin-bottom: 5em;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: .6em;
+    font-weight: 600;
+    
+    li {
+        cursor: pointer;
+
+        .slider-page-kanan {
+            transition: ease-in-out .3s;
+            &:hover {
+                background-color: #6100A2;
+                color: white;
+                
+            }
+        }
+
+        .slider-page-kiri {
+            transition: ease-in-out .3s;
+            &:hover {
+                background-color: #6100A2;
+                color: white;
+                
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: #6100A2;
+            border: .2em #6100A2 solid ;
+            padding: .8em 2em;
+            border-radius: .3em;
+        }
+    }
+}
+
+// UV and GAMMA Change
+.article__list-uv {
+    list-style-type: none;
+}
+
+.article__olist {
+
+    li {
+        font-weight: 600;
+        margin-top: 2em;
+    }
+    p {
+        margin-top: .5em;
+    }
+}
+
+// Sinar Tampak Change
+
+.article__list-warna {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        font-weight: 400;
+        margin: 0em;
+    }
+}
+
+.article__lists{
+    li {
+        margin-top: 1em;
+    }
+}
+
+// Gelombang Radio Change
+.slider-page-r {
+    margin-top:10em;
+    margin-bottom: 5em;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-size: .6em;
+    font-weight: 600;
+
+    .slider-page-kanan-r {
+        transition: ease-in-out .3s;
+        
+        &:hover {
+            background-color: #6100A2;
+            color: white;
+            
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #6100A2;
+        border: .2em #6100A2 solid ;
+        padding: .8em 2em;
+        border-radius: .3em;
+    }
+}
+
+
+
+@media only screen and (min-width:680px){
+    body {
+        width: 680px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+   
+}

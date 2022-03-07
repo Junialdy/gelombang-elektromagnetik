@@ -1,0 +1,115 @@
+body {
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .nav-container {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+body .nav-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .nav-container header ul {
+  font-weight: 500;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body .nav-container header ul .about-me {
+  color: #6100A2;
+  border: .18em #6100A2 solid;
+  padding: .3em .9em;
+  border-radius: .3em;
+}
+
+body .nav-container header ul .about-me:hover {
+  background-color: #6100A2;
+  color: white;
+  -webkit-box-shadow: #6100A2 0 0 5em;
+          box-shadow: #6100A2 0 0 5em;
+}
+
+body .nav-container header a {
+  text-decoration: none;
+  font-size: .7rem;
+}
+
+body .nav-container header a .nav-logo {
+  width: 9em;
+  height: auto;
+}
+
+.container {
+  color: #6100A2;
+  margin-top: 3em;
+  padding-bottom: 2em;
+}
+
+.container .item-title {
+  font-size: 1rem;
+  margin-bottom: -.5em;
+}
+
+.container .item-desc {
+  margin-bottom: 2em;
+}
+
+.border-three {
+  width: 110.8%;
+  height: 4em;
+  margin-left: -1.5em;
+  margin-bottom: -3em;
+  background: #53F9B1;
+  border: #6100A2 .4em solid;
+  border-bottom: none;
+}
+
+.border-three .icon {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0em 4em 0em 4em;
+}
+
+@media only screen and (min-width: 377px) {
+  body {
+    width: 377px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+  .nav-container {
+    padding: 1em 11.5em 3em 11.5em;
+  }
+  .border-three {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .border-three .icon {
+    padding: 0em 15em 0 15em;
+  }
+}
+/*# sourceMappingURL=aboutMe.css.map */
