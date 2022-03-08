@@ -664,6 +664,13 @@ a {
   }
 }
 
+@media only screen and (max-height: 655px) {
+  #slider {
+    padding-top: 10em;
+    position: absolute;
+  }
+}
+
 @-webkit-keyframes moveDown {
   from {
     -webkit-transform: translateY(-100px);
