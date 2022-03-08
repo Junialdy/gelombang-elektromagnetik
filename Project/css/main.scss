@@ -479,6 +479,13 @@ a {
         animation: moveDown 1s ease-in-out forwards;
     }
    
+    #slider {
+        padding: 13% 10% 0 5%;
+    }
+
+    .img-container ::before {
+        border: .6em #6100A2 solid ;
+    }
  }
 
  @media only screen and (min-width: 1200px){
@@ -636,11 +643,11 @@ a {
 
  }
 
- @media only screen and (max-width: 360px){
+ @media only screen and (max-width: 361px){
      .hero {
 
         &-img-container ::before {
-            border: .46em #6100A2 solid ;
+            border: .6em #6100A2 solid ;
         }
 
         &-title{
@@ -662,7 +669,7 @@ a {
     #slider {
         position: absolute;
         left: 0;
-        padding-top: 8em;
+        padding-top: 10em;
         padding-left: .8em;
     }
     
