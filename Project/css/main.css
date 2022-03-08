@@ -162,6 +162,8 @@ a {
   height: 2em;
   margin: .5em;
   border-radius: 50%;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
 }
 
 .border-three {
@@ -320,6 +322,7 @@ a {
 
 .more-button {
   font-size: .7rem;
+  color: #6100A2;
 }
 
 #controls {
@@ -626,6 +629,31 @@ a {
   }
   body .overload {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero-img-container ::before {
+    border: .5em #6100A2 solid;
+  }
+  .hero-title {
+    font-size: 1.2rem;
+  }
+  .hero-desc {
+    font-size: .8rem;
+  }
+  .container-item {
+    cursor: pointer;
+    -webkit-transition: ease-out .2s;
+    transition: ease-out .2s;
+    width: 2em;
+    height: 1.8em;
+  }
+  #slider {
+    position: absolute;
+    left: 0;
+    padding-top: 4em;
+    padding-left: .8em;
   }
 }
 

@@ -157,6 +157,7 @@ a {
     height: 2em;
     margin: .5em;
     border-radius: 50%;
+    animation: moveDown 1s ease-in-out forwards;
 }
 
 
@@ -635,6 +636,38 @@ a {
 
  }
 
+ @media only screen and (max-width: 360px){
+     .hero {
+
+        &-img-container ::before {
+            border: .5em #6100A2 solid ;
+        }
+
+        &-title{
+            font-size: 1.2rem;
+        }
+
+         &-desc{
+            font-size: .8rem;
+         }
+     }
+    
+     .container-item {
+        cursor: pointer;
+        transition: ease-out .2s;
+        width: 2em;
+        height: 1.8em;
+    }
+
+    #slider {
+        position: absolute;
+        left: 0;
+        padding-top: 4em;
+        padding-left: .8em;
+    }
+    
+     
+ }
 
  @keyframes moveDown {
     from {
